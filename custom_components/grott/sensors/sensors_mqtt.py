@@ -1650,7 +1650,7 @@ SENSORS = [
     "entity_category": EntityCategory.DIAGNOSTIC,
     "icon": "mdi:thermometer",
     "func": lambda js: js['values']["bdc1_tempa"],
-    "divider": 1,
+    "divider": 10,
     "unique_name": "mqtt_153",
   },
   {
@@ -1661,7 +1661,7 @@ SENSORS = [
     "entity_category": EntityCategory.DIAGNOSTIC,
     "icon": "mdi:thermometer",
     "func": lambda js: js['values']["bdc1_tempb"],
-    "divider": 1,
+    "divider": 10,
     "unique_name": "mqtt_154",
   },
   {
@@ -1672,7 +1672,7 @@ SENSORS = [
     "entity_category": EntityCategory.DIAGNOSTIC,
     "icon": "mdi:thermometer",
     "func": lambda js: js['values']["bdc2_tempa"],
-    "divider": 1,
+    "divider": 10,
     "unique_name": "mqtt_155",
   },
   {
@@ -1683,7 +1683,7 @@ SENSORS = [
     "entity_category": EntityCategory.DIAGNOSTIC,
     "icon": "mdi:thermometer",
     "func": lambda js: js['values']["bdc2_tempb"],
-    "divider": 1,
+    "divider": 10,
     "unique_name": "mqtt_156",
   }
 
